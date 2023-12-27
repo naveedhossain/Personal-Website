@@ -1,0 +1,44 @@
+.card {
+            display: inline-block;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 30%; /* Adjust the width as needed */
+            padding: 20px;
+            background-color: #fff;
+            margin-right: 20px; /* Adjust the spacing between cards */
+        }
+
+        .card-img {
+          width: 100%; /* Ensure the image takes the full width of its container */
+          height: 200px; /* Adjust the height as needed */
+          object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+          border-radius: 8px 8px 0 0; /* Optional: Add rounded corners to the top */
+        }
+
+        /* Add styles for the card title */
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Add styles for the card content */
+        .card-content {
+            font-size: 14px;
+        }
+
+        section {
+            padding: 5px 20px 100px 20px; /* top, right, bottom, left */
+        }
+        .container {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .column {
+     flex:3; /* Each column takes up an equal portion of the available space */
+     margin: 10px;
+     padding: 10px;
+     border: 1px solid #ddd;
+ }
